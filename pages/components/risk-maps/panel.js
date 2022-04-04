@@ -30,7 +30,7 @@ const Layer = ({
   const [tick, setTick] = useState(false)
 
   let useIcon
-  // You pass custom 'height' or 'color' values
+  // These accept custom 'height' or 'color' values.
   if (icon == 'fire') useIcon = <IconFire />
   if (icon == 'rain') useIcon = <IconRain />
   if (icon == 'insect') useIcon = <IconInsect />
