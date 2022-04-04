@@ -3,9 +3,9 @@
   height='48'
 />
 
-# carbonplan / simple-site
+# carbonplan / risk-map-icons-poc
 
-**website template using our stack**
+**Forest Risk Map - Figure 1 Modified**
 
 [![GitHub][github-badge]][github]
 ![MIT License][]
@@ -14,7 +14,13 @@
 [github-badge]: https://flat.badgen.net/badge/-/github?icon=github&label
 [mit license]: https://flat.badgen.net/badge/license/MIT/blue
 
-This repository is a super simple website set up using the basic components of our web stack and design system: React, Next, ThemeUI, our components, and our theme.
+A fork of carbonplan/simple-site that implements the RiskMap component with several modifications:
+
+- Changed layout from 2-2 grid to 1-2-1 grid
+- Rearranged panels
+- Added icons that accept color and height params
+- Moved slider position to better align with icons
+- Changed panel colors 
 
 ## usage
 
